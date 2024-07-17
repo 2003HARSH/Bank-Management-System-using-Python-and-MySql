@@ -1,0 +1,4 @@
+create database bank;
+use bank;
+create table account(acno int primary key,name varchar(25),dob date,phone_no varchar(15),address varchar(40),opening_balance int);
+create table secured(acno int primary key,passoword varchar(25));
