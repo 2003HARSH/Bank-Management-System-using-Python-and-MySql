@@ -315,7 +315,7 @@ def admin_options():
     def close():
         admin_window.destroy()
     def save():
-        if upasswd.get()=='iloveyou':
+        if upasswd.get()=='P@$$w0rd':
             msg=Label(admin_window,text="Welcome Administrator...\n ",fg="green").grid(row=6,column=1)
             button00=Button(admin_window,text="Show DATA",command=show).grid(column=1,row=8)
             button01=Button(admin_window,text="Close",command=close).grid(column=2,row=8)
