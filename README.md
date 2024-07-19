@@ -121,3 +121,4 @@ Each function creates a new window using Tkinter's `Toplevel` widget and interac
 ## License
 
 This project is licensed under the MIT License.
+
